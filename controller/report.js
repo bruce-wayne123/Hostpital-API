@@ -8,9 +8,12 @@ module.exports.generateReport = async function (req, res) {
         } else {
             searchReport = new Report(req.body);
             let reportCreated = await searchReport.save();
-            return res.send(reportCreated);
+            // return res.send(reportCreated);
+            return res.json(200, {
+                reportCreated: reportCreated,
+    
+            });
         }
-
     } catch (error) {
         return res.send("Error in generating the report - ", error);
     }

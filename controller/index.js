@@ -13,7 +13,7 @@ module.exports.Register = async function (req, res) {
             searchDoctor = new Doctor(req.body);
             registeredDoctor = await searchDoctor.save();
         }
-        return res.send(200).json({
+        return res.json(200, {
             message: "Doctor Register!!",
             doctor: registeredDoctor
         })

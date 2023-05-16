@@ -1,4 +1,5 @@
 const mongoose = require("mongoose");
+//Following URL is to connect to MongoDB Atlas on Cloud
 const url = `mongodb+srv://ckent8040:Google%40123@cluster0.0eq8is5.mongodb.net/test?retryWrites=true&w=majority`;
 const connectionParams = {
     useNewUrlParser: true,

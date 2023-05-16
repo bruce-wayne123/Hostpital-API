@@ -13,6 +13,6 @@ module.exports.register = async function (req, res) {
             return res.send(addPatient);
         }
     } catch (error) {
-        return res.send('error in register!!');
+        return res.send(`error in register!!${error}`);
     }
 }
