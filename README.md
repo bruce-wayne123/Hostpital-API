@@ -9,5 +9,4 @@ Technologies:
 
 Back End – Express JS, MongoDB Atlas, Mongoose JS
 Authentication - JWT
-![image](https://github.com/bruce-wayne123/Hostpital-API/assets/34540752/ea4a2893-83cf-4390-9b5b-d86ba6340311)
 
