@@ -10,5 +10,6 @@
 Technologies:
 
 Back End – Express JS, MongoDB Atlas, Mongoose JS
+
 Authentication - JWT
 
